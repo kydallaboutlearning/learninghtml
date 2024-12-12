@@ -29,8 +29,8 @@
 }
 
 #navbar__logo{
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #cd1f0c;
+    background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -107,8 +107,8 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background-color: #f77062;
-    background-image: linear-gradient(to top, rgb(255, 0, 72) 15%, #ffb199 100%);
+    background-color: #cd1f0c;
+    background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
     color: aliceblue;
 }
 
@@ -216,3 +216,11 @@
         transform: translateY(-8px) rotate(-45deg);
      }
 }  
+
+
+
+/* Hero section styling */
+.main {
+    background-color: #141414;
+
+}
