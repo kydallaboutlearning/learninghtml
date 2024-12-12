@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>KYD LEARNING HTML</title>
+        <style>@import url('style.css');</style>
+    </head>
+    <body bgcolor="#12122" face="courier" basefont size="45" text="white" >
+        <h1 name="#header1">It's kyd </h1>
+        <p text-align="center"> Hello welcome
+        <a href="tel:+2349050685627">You can call me here </a>| 
+        <a href="mailto:kydallaboulearning@gmail.com">Or email me</a>
+        <!-- If you want to add javascript code  ensure you add retur false to prevent code from scrolling unneccesarily to the top also it's not a good practice to run inline java scripts code-->
+         <a href="#" onclick="new_function(); return false;"> Run the function</a>
+
+         <!-- creating a list -->
+         <div class="table_one">
+            <ul>
+                <li>One list</li>
+                    <ul>
+                        <li> Another one</li>
+                    </ul>
+                <li>list 2</li>
+                    <ul>
+                        <li>list 3</li>
+                    </ul>
+            </ul>
+        </div>
+        <div>
+            <dl>
+                <dt>Programming languages i love </dt>
+                    <dd>Python</dd>
+                    <dd>Rust</dd>
+                <dt>Foods i love</dt>
+                    <dd>All of the fuckig above</dd>
+                    <dd>NOthing more than those shit</dd>
+            </dl>
+        </div>
+        <!-- adding a table -->
+        <table>
+            <tr>
+                <th>Heading One</th>
+                <th>Anothwe Headng</th>
+            </tr>
+            <tr>
+                <td>Let's see this</td>
+                <td>new sixe</td>
+                <td>column again</td>
+            </tr>
+            <tr>
+                <td>new added column</td>
+                <td> another column</td>
+            </tr>
+        </table>
+
+        <!-- adding additional table -->
+    </p>
+    <table>
+        <caption> A new table</caption>
+            <thead> 
+                <tr>
+                    <th scope="row">Price</th>
+                    <th>status</th>
+                    <th>buyer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>200</td>
+                    <td>Paid</td>
+                    <td>KYD</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>
+                        new buyer
+                    </td> 
+                    <td>
+                        another buyer
+                    </td>
+                </tr>
+            </tfoot>
+    </table>
+
+    <p> New image is here <img src="socrates.png" alt="socrates-image"></p>
+    <script src="site.js"></script>
+    <!-- while to load asynchronously -->
+     <script src="site.js" async></script>
+    </body>
+</html>
