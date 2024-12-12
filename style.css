@@ -136,10 +136,11 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        top: -1000px;
-        opacity: 0 ;
+        /* top: -1000px;
+        opacity: 0 ; */
         transition: all o.5s ease;
         height: 50vh;
+        background: #131313;
         z-index: -1  ;
 
      }
@@ -178,4 +179,8 @@
         right: 5%;
         transform: translate(5%, 20%);
      }
-} 
+
+     .navbar__btn{
+        padding-bottom: 2rem;
+     }
+}  
