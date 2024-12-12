@@ -238,3 +238,15 @@
     padding: 0 70px;
       
 }
+
+
+.main__content h1{
+    font-size: 4rem;
+    background-color: #cd1f0c;
+    background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fil-color: transparent;
+
+}
