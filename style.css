@@ -240,7 +240,7 @@
 }
 
 
-.main__content h1{
+.main__content h1 {
     font-size: 4rem;
     background-color: #cd1f0c;
     background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
@@ -252,7 +252,7 @@
 }
 
 
-.main__content h2{
+.main__content h2 {
     font-size: 3rem;
     background: #740bf45a;
     background-image: linear-gradient(to top, #740bf45a 0%, #6ecffc 100%);
@@ -267,4 +267,21 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
+    color: #fff;
+}
+
+.main__btn {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+
 }
