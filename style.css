@@ -1,25 +1,6 @@
-body{
-    text-align: center;
-}
-div{
-    text-indent: 0cqi;
-    text-align: justify;
-    text-size-adjust: 24px;
-.table_one{
-    background-color: #123322;
-}
-}
-div.table_two{
-    text-shadow: 0ex;
-}
-thead{
-    color: black;
-    background-color:red ;
-}
-tbody{
-    color:antiquewhite;
-    background-color: aqua;
-}
-caption{
-    text-wrap: pretty;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "kumph Sans", sans-serif;
 }
