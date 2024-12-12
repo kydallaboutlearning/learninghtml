@@ -462,4 +462,11 @@ body{
     top: 350px;
     left: 30px;
 }
+.services__card p {
+    position: absolute;
+    top: 400px;
+    left:  30px;
+}
+
+
 
