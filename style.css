@@ -458,4 +458,8 @@ body{
 }
 
 
-
+.services h2{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
