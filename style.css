@@ -250,3 +250,15 @@
     -moz-text-fil-color: transparent;
 
 }
+
+
+.main__content h2{
+    font-size: 3rem;
+    background: #740bf45a;
+    background-image: linear-gradient(to top, #740bf45a 0%, #6ecffc 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fil-color: transparent;
+
+}
