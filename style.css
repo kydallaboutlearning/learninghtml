@@ -4,3 +4,13 @@
     padding: 0;
     font-family: "kumph Sans", sans-serif;
 }
+
+.navbar{
+    background:  #131313;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    z-index: 999;
+}
