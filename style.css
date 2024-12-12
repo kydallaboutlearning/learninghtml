@@ -425,8 +425,12 @@ body{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fil-color: transparent;
-
 }
 
+.services__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
