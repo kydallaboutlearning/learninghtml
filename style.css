@@ -490,5 +490,18 @@ body{
     transition: 0.2s ease-in;
     cursor: pointer;
 }
+@media screen and (max-width:960px ) {
+    .services{
+        margin-top: 110rem;
+        height: 1600px;
+        
+    }
+
+    .services h1{
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+}
+
 
 
