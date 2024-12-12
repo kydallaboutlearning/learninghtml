@@ -300,9 +300,18 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #410462;
+    background-image: linear-gradient(to top, #410462 100%, #ffb199 15%);
     transition: all 0.35s;
     border-radius: 5px;
 }
+
+.main__btn:hover{
+    color: #fff;
+}
+
+.main__btn:hover:after{
+    width: 100%;
+}
+
 
 
