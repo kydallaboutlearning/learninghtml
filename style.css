@@ -463,3 +463,32 @@ body{
     top: 350px;
     left: 30px;
 }
+
+.services__card p {
+    position: absolute;
+    top: 400px;
+    left:  30px;
+    color: #fff;
+}
+
+.services__card button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #cd1f0c;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.services__card:hover {
+    transform: scale(1.075)  ;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+
