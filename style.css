@@ -330,7 +330,7 @@ body{
 
 
 
-/* Hero section mobile resposivenes */
+/* Hero section mobile resposivenes for medium sized screens */
 @media screen and (max-width: 768px) {
     .main__cotainer{
        display: grid;
@@ -359,6 +359,30 @@ body{
     .main__content p{
         margin-top: 1rem;
         font-size: 1.5rem;
+
+    }
+}
+
+/* Hero section mobile resposivenes */
+@media screen and (max-width: 480px) {
+   
+    .main__content h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main__content h2 {
+        font-size: 2rem;
+    }
+
+    .main__content p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+
+    .main__btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
 
     }
 }
