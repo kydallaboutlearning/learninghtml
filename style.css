@@ -320,12 +320,21 @@ body{
 
 .main__img--container {
     text-align: center;
-   
+    
 }
+   
+
  
 #main__img {
     height: 80%;
     width: 80%;
+    margin-bottom:8px;
+    border-radius: 50px; /* Curved edges for product images */
+    transition: all 0.3s ease; 
+    
+}
+.main__img--container:hover{
+    transform: scale(1.01); 
 }
 
 
