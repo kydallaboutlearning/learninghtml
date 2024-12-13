@@ -549,3 +549,12 @@ body{
     justify-content: center;
 }
 
+.footer__link--wrapper{
+    display: flex;
+}
+
+
+.footer__link--item{
+    display: flex;
+}
+
