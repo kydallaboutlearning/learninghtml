@@ -230,24 +230,29 @@ body{
 }
 
 .main__container {
+    
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
     background-color: #141414;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     max-width: 1300px; 
-    padding: 0 70px;
+    padding: 0 50px;
       
 }
+
+
 
 
 .main__content h1 {
     font-size: 4rem;
     background-color: #cd1f0c;
     background-image: linear-gradient(to top, rgb(255, 0, 72) 1%, #ffb199 100%);
+    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -257,9 +262,10 @@ body{
 
 
 .main__content h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     background: #740bf45a;
     background-image: linear-gradient(to top, #740bf45a 0%, #6ecffc 100%);
+    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -267,7 +273,7 @@ body{
 
 }
 
-.main__content p{
+.main__content p {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
@@ -324,14 +330,10 @@ body{
 }
    
 
- 
+
 #main__img {
     height: 80%;
     width: 80%;
-    margin-bottom:8px;
-    border-radius: 50px; /* Curved edges for product images */
-    transition: all 0.3s ease; 
-    
 }
 .main__img--container:hover{
     transform: scale(0.925); 
@@ -354,6 +356,7 @@ body{
     .main__content{
         text-align: center;
         margin-bottom: 4rem;
+      
     }
 
     .main__content h1{
@@ -400,7 +403,6 @@ body{
 
 /* Services section styling */
 .services {
-    margin-top: 105rem;
     background: #141414;
     display: flex;
     flex-direction: column;
@@ -492,7 +494,6 @@ body{
 }
 @media screen and (max-width:960px ) {
     .services{
-        margin-top: 110rem;
         height: 1600px;
         
     }
