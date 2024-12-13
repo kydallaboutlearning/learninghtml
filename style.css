@@ -574,3 +574,11 @@ body{
 .footer__link--items > h2{
     color: #fff;
 }
+
+.footer__link--items a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
