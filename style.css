@@ -47,6 +47,7 @@ body{
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    margin-left: 2rem;
 }
 
 #navbar__logo:hover{
@@ -163,6 +164,7 @@ body{
 
      #navbar__logo{
         padding-left: 25px;
+        margin-left: 0;
      }
 
      .navbar__toggle .bar{
