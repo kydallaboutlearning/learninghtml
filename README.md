@@ -63,6 +63,9 @@ A showcase of KYD's top projects:
 ### 4. Footer
 Contains links to important resources and social media platforms, ensuring users can easily connect with KYD Dev.
 
+### Website links
+-KYD WEBSITE: [The website link for this repo](https://learninghtml-chi.vercel.app/)
+
 ## Screenshots
 
 ### Hero Section
@@ -84,6 +87,7 @@ Coming soon!
 - GitHub: [kydallaboutlearning](https://github.com/kydallaboutlearning)
 - Twitter: [@k_y_d_a_a_l](https://X.com/k_y_d_a_a_l/)
 - WhatsApp: [+2349063069121](tel:+2349063069121)
+  
 
 ## License
 
