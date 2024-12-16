@@ -632,3 +632,17 @@ width: 100%;
 .website__rights{
     color: #fff;
 }
+
+
+
+
+/* Adding responsiveness for medium sized screen on the footer */
+@media screen and (max-width: 820px) {
+    .footer__links {
+        padding-top: 2rem;
+    }
+
+    #footer__logo{
+        margin-bottom: 2rem;
+    }
+}
