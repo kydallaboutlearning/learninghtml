@@ -496,7 +496,11 @@ body{
     cursor: pointer;
 }
 
-
+/* Adding hover styling to the button */
+.services__card button:hover{
+    background: #740bf45a;
+    background-image: linear-gradient(to top, #740bf45a 0%, #6ecffc 100%);
+}
 
 @media screen and (max-width:960px ) {
     .services{
